@@ -1,0 +1,62 @@
+.noTasksContainer {
+    margin-top: 2rem;
+    border-radius: 15px;
+    border-top: 1px solid var(--gray-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+    gap: 1rem;
+}
+
+.task {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: var(--gray-500);
+    padding: 1rem 1.125rem;
+    border-radius: 8px;
+    gap: 0.75rem;
+}
+
+.task span {
+    color: var(--gray-100);
+}
+
+.task .deleteButton {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+
+    transition: color 0.2s;
+}
+
+.task .deleteButton:hover {
+    color: var(--red-400);
+}
+
+label{
+    border-radius: 100%;
+    border: 2px solid var(--blue-200);
+    padding: 0.6rem;
+    color: var(--gray-100);
+    cursor: pointer;
+}
+
+.task .doneButton {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+
+    transition: color 0.2s;
+}

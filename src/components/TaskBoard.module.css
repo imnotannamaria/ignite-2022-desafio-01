@@ -1,0 +1,42 @@
+.taskBoard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.createdTasks {
+    color: var(--blue-200);
+    font-size: 0.875;
+}
+
+.createdTasks span{
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.5rem 0.5rem;
+    border-radius: 40px;
+}
+
+
+.completedTasks {
+    color: var(--purple-300);
+    font-size: 0.875;
+}
+
+.completedTasks span{
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.5rem 0.5rem;
+    border-radius: 15px;
+}
+
+.noTasksContainer {
+    margin-top: 3rem;
+    border-radius: 15px;
+    border-top: 1px solid var(--gray-300);
+}
+
+@media (max-width: 768px) {
+    .taskBoardContainer {
+        padding: 0 1rem;
+    }
+} 

@@ -1,0 +1,91 @@
+.taskBoard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.createdTasks {
+    color: var(--blue-200);
+    font-size: 0.875;
+}
+
+.createdTasks span{
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.5rem 0.5rem;
+    border-radius: 40px;
+}
+
+
+.completedTasks {
+    color: var(--purple-300);
+    font-size: 0.875;
+}
+
+.completedTasks span{
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.5rem 0.5rem;
+    border-radius: 15px;
+}
+
+.noTasksContainer {
+    margin-top: 3rem;
+    border-radius: 15px;
+    border-top: 1px solid var(--gray-300);
+}
+
+@media (max-width: 768px) {
+    .taskBoardContainer {
+        padding: 0 1rem;
+    }
+} 
+
+.taskForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    border-radius: 8px;
+}
+
+.taskForm textarea {
+    width: 100%;
+    background: var(--gray-500);
+    border: 0;
+    resize: none;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-300);
+    line-height: 1.4;
+    margin-right: 0.5rem;
+}
+
+.taskForm button {
+    padding: 0 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--blue-600);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+}
+
+.taskForm button span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 3.5rem;
+}
+
+@media (max-width: 768px) {
+    .taskForm {
+        padding: 0 1rem;
+    }
+} 
+
